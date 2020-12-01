@@ -39,11 +39,13 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
+
 class SupplementBase(models.Model):
     name = models.CharField(primary_key=True, max_length=300, unique=True)
 
     def __str__(self):
         return self.name
+
 
 class Supplement(models.Model):
     name = models.CharField(primary_key=True, max_length=300, unique=True)
