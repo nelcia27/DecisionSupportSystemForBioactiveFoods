@@ -25,12 +25,12 @@ router.register(r'Metric', views.MetricView, 'Metric')
 router.register(r'Sample', views.SampleView, 'Sample')
 router.register(r'ExternalFactor', views.ExternalFactorView, 'ExternalFactor')
 router.register(r'Supplement', views.SupplementView, 'Supplement')
-router.register(r'SupplementBase', views.SupplementBaseView, 'SupplementBase')
+router.register(r'SupplementBase', views.SupplementBaseView, 'SupplementBase') #problem
 router.register(r'Product', views.ProductView, 'Product')
 router.register(r'Recipe', views.RecipeView, 'Recipe')
 router.register(r'BasicIngredient', views.BasicIngredientView, 'BasicIngredient')
-router.register(r'BasicIngredientBase', views.BasicIngredientBaseView, 'BasicIngredientBase')
-router.register(r'Category', views.CategoryView, 'Category')
+router.register(r'BasicIngredientBase', views.BasicIngredientBaseView, 'BasicIngredientBase') #problem
+router.register(r'Category', views.CategoryView, 'Category') #problem
 router.register(r'Experiment', views.ExperimentView, 'Experiment')
 
 urlpatterns = [

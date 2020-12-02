@@ -13,13 +13,13 @@ class ExperimentSerializer(serializers.ModelSerializer):
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = ('name')
+        fields = ['name']
 
 
 class BasicIngredientBaseSerializer(serializers.ModelSerializer):
     class Meta:
         model = BasicIngredientBase
-        fields = ('name')
+        fields = ['name']
 
 
 class BasicIngredientSerializer(serializers.ModelSerializer):
@@ -43,7 +43,7 @@ class ProductSerializer(serializers.ModelSerializer):
 class SupplementBaseSerializer(serializers.ModelSerializer):
     class Meta:
         model = SupplementBase
-        fields = ('name')
+        fields = ['name']
 
 
 class SupplementSerializer(serializers.ModelSerializer):
