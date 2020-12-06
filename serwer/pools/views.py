@@ -2,6 +2,11 @@ from django.shortcuts import render
 from rest_framework import viewsets
 from .serializers import *
 from .models import *
+import io
+from django.http.response import HttpResponse
+import xlsxwriter
+from .ExcelFunctions import generate_empty_xlsx
+import json
 
 class ResultView(viewsets.ModelViewSet):
   serializer_class = ResultSerializer
@@ -66,3 +71,28 @@ class CategoryView(viewsets.ModelViewSet):
 class ExperimentView(viewsets.ModelViewSet):
   serializer_class = ExperimentSerializer
   queryset = Experiment.objects.all()
+
+
+
+
+#request body:
+#experiment_data, supplement_name, percentage_of_supplement, metrices
+#experiment_data [nazwa,opis,link autor,data utworzenia]
+#metrices list of lists of elements ['name','num_series', 'num_repeats', 'id_próbki', 'num_of_values_external_factor', 'list_of_values_external_factor', 'metrice_id']
+def generate_experiment_excel(request):
+    body_unicode = request.body.decode('utf-8')
+    body = json.loads(body_unicode)
+    output = io.BytesIO()
+
+    workbook = generate_empty_xlsx(output, body['experiment_data'], body['supplement_name'], body['percentage_of_supplement'],body['metrices'])
+    workbook.close()
+    output.seek(0)
+
+    filename = body['supplement_name'] + "_" + str(body['percentage_of_supplement']) + "%" + ".xlsx"
+    response = HttpResponse(output.read(), content_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+    response['Content-Disposition'] = "attachment; filename=" + filename
+    output.close()
+
+    return response
+
+

@@ -91,7 +91,7 @@ class DetailedMetric(models.Model):
 
 class Result(models.Model):
     id = models.AutoField(primary_key=True)
-    value = models.FloatField(blank=False)
+    value = models.CharField(blank=False, max_length=1500)
     number_of_measure = models.PositiveIntegerField(blank=False)
     number_of_serie = models.PositiveIntegerField(blank=False)
     detailed_metric = models.ForeignKey(DetailedMetric, on_delete=models.CASCADE)
