@@ -1,5 +1,6 @@
 import xlsxwriter
-
+import xlrd
+from .models import DetailedMetric, Sample, ExternalFactor, Result
 
 def generate_empty_xlsx(output,experiment_data, supplement_name, percentage_of_supplement, metrices):
     # experiment_data [nazwa,opis,link autor,data utworzenia]
@@ -58,3 +59,44 @@ def generate_empty_xlsx(output,experiment_data, supplement_name, percentage_of_s
     workbook.close()
 
     return workbook
+
+
+def read_experiment_data(path):
+    # res to [[id_metryki_szczegółowej, [[pomiar1seria1, pomiar2seria1],[pomiar1seria2, pomiar2seria2]]], [id_metryki_szczegółowej, [[pomiar1seria1, pomiar2seria1],[pomiar1seria2, pomiar2seria2]]]]
+    # gdy pomiary dla róznych wartości czynnika zew to po średniku wpisane do tego samego wiersza tabeli wyniku
+    loc = (path)
+    wb = xlrd.open_workbook(loc)
+    result = []
+    for sheet in wb.sheets():
+        data = str(sheet.name).split(",")
+        if len(data) > 1:
+            res = []
+            res.append(data[2])
+            infos = DetailedMetric.objects.get(id=data[2])
+            series = []
+            sample = Sample.objects.get(id=data[0])
+            external_factor = ExternalFactor.objects.get(name=sample.externalFactor)
+            rowcounter = 3
+            colcounter = 1
+            for i in range(0, infos.number_of_series):
+                serie = []
+                for j in range(0, infos.number_of_repeat):
+                    measure = ""
+                    rowcounter = rowcounter + j
+                    for k in range(0, external_factor.number_of_values):
+                        if measure == "":
+                            measure = measure + sheet.cell_value(rowx=rowcounter, colx=colcounter + k)
+                        else:
+                            measure = measure + "," + sheet.cell_value(rowx=rowcounter, colx=colcounter + k)
+                serie.append(measure)
+                rowcounter = rowcounter + 2
+                series.append(serie)
+            res.append(series)
+            result.append(res)
+
+    # wstawienie wyników do bazy
+    for res in result:
+        for i in range(0, len(res[1])):
+            for j in range(0, len(res[1][i])):
+                r = Result(value=res[1][i][j], number_of_measure=j, number_of_serie=i, detailed_metric__id=res[0])
+                r.save()

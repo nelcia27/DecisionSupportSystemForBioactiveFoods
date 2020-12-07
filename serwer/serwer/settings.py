@@ -103,7 +103,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+DEFAULT_AUTHENTICATION_CLASSES =[
+    'rest_framework.authentication.BasicAuthentication'
+]
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
