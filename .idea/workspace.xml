@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0fb0233-f1df-4e45-8a21-fd358ae46dd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serwer/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serwer/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serwer/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/password_reset_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serwer/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/serwer/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/pools/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/serwer/pools/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/pools/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/serwer/pools/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/pools/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/serwer/pools/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0002_auto_20201128_1751.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0003_auto_20201128_1802.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0004_delete_experiment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0005_experiment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0006_auto_20201206_1821.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serwer/serwer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/serwer/serwer/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serwer/serwer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/serwer/serwer/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +29,85 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serwer/accounts/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serwer/pools/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serwer/templates/registration/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serwer/templates/registration/password_reset_complete.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serwer/templates/registration/password_reset_confirm.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serwer/templates/registration/password_reset_done.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serwer/templates/registration/password_reset_form.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serwer/templates/registration/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serwer/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serwer/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,8 +119,81 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/serwer/serwer/settings.py" />
+        <option value="$PROJECT_DIR$/serwer/serwer/urls.py" />
+        <option value="$PROJECT_DIR$/serwer/accounts/urls.py" />
+        <option value="$PROJECT_DIR$/serwer/accounts/views.py" />
+        <option value="$PROJECT_DIR$/serwer/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/serwer/templates/home.html" />
+        <option value="$PROJECT_DIR$/serwer/templates/registration/signup.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="805" />
+    <option name="width" value="1110" />
+    <option name="height" value="1040" />
+  </component>
   <component name="ProjectId" id="1kq0Xzu7Msny4UWJXdDiMdWjZuV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DecisionSupportSystemForBioactiveFoods" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DecisionSupportSystemForBioactiveFoods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DecisionSupportSystemForBioactiveFoods" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DecisionSupportSystemForBioactiveFoods" type="462c0819:PsiDirectoryNode" />
+              <item name="serwer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DecisionSupportSystemForBioactiveFoods" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DecisionSupportSystemForBioactiveFoods" type="462c0819:PsiDirectoryNode" />
+              <item name="serwer" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DecisionSupportSystemForBioactiveFoods" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DecisionSupportSystemForBioactiveFoods" type="462c0819:PsiDirectoryNode" />
+              <item name="serwer" type="462c0819:PsiDirectoryNode" />
+              <item name="pools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DecisionSupportSystemForBioactiveFoods" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DecisionSupportSystemForBioactiveFoods" type="462c0819:PsiDirectoryNode" />
+              <item name="serwer" type="462c0819:PsiDirectoryNode" />
+              <item name="serwer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DecisionSupportSystemForBioactiveFoods" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DecisionSupportSystemForBioactiveFoods" type="462c0819:PsiDirectoryNode" />
+              <item name="serwer" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DecisionSupportSystemForBioactiveFoods" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DecisionSupportSystemForBioactiveFoods" type="462c0819:PsiDirectoryNode" />
+              <item name="serwer" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -57,17 +224,147 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="644" y="0" width="888" height="832" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857143" visible="true" weight="0.24911869" />
+      <window_info id="Structure" order="1" sideWeight="0.50142854" side_tool="true" weight="0.24911869" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/serwer/pools/migrations/0003_auto_20201128_1802.py" />
+    <entry file="file://$PROJECT_DIR$/serwer/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/serwer/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/serwer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/pools/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/templates/registration/password_reset_complete.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/templates/registration/password_reset_confirm.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/templates/registration/password_reset_done.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/templates/registration/password_reset_form.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serwer/templates/registration/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

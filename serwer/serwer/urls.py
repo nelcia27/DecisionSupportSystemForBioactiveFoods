@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from pools import views
+from django.views.generic.base import TemplateView
 
 router = routers.DefaultRouter()
 router.register(r'Result', views.ResultView, 'Result')
@@ -36,5 +37,8 @@ router.register(r'Experiment', views.ExperimentView, 'Experiment')
 urlpatterns = [
     path('pools/', include('pools.urls')),
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls))
+    path('api/', include(router.urls)),
+    path('accounts/', include('accounts.urls')),
+    path('accounts/',include('django.contrib.auth.urls')),
+    path('', TemplateView.as_view(template_name='home.html'), name='home'),
 ]
