@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0fb0233-f1df-4e45-8a21-fd358ae46dd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serwer/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serwer/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serwer/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serwer/templates/registration/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/serwer/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0002_auto_20201128_1751.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0003_auto_20201128_1802.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0004_delete_experiment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0005_experiment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/0006_auto_20201206_1821.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/pools/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/serwer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/serwer/serwer/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serwer/serwer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/serwer/serwer/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="a0fb0233-f1df-4e45-8a21-fd358ae46dd4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serwer/accounts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="102">
               <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -59,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/serwer/templates/registration/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -88,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/serwer/templates/registration/signup.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -144,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,6 +169,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,6 +204,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="644" y="0" width="888" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857143" visible="true" weight="0.24911869" />
       <window_info id="Structure" order="1" sideWeight="0.50142854" side_tool="true" weight="0.24911869" />
@@ -313,7 +292,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serwer/accounts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="102">
           <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -333,7 +312,7 @@
     <entry file="file://$PROJECT_DIR$/serwer/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -362,7 +341,7 @@
     <entry file="file://$PROJECT_DIR$/serwer/templates/registration/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
